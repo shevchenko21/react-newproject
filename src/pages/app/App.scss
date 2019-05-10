@@ -1,0 +1,39 @@
+.app-warpper {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction:column;
+	.main {
+		flex:1;
+		display:flex;
+		flex-direction:row;
+		.left{
+			width: 350px;
+			background-color: #242b42;
+			box-sizing: border-box;
+			border-right: #757988 solid 1px;
+			display: flex;
+			flex-direction:column;
+			section{
+				width: 100%;
+				padding: 15px 30px;
+				border-bottom: #32426f solid 1px;
+				.sum{
+					color: white;
+					font-size: 14px;
+				}
+			}
+
+		}
+		.right{
+			flex:1;
+			background-color: #182535;
+		}
+		.ec-extension-bmap{
+			.anchorBL{
+				display: none;
+			}
+		}
+	}
+
+}

@@ -1,0 +1,13 @@
+/* @import "../../../node_modules/antd/dist/antd.css"; */
+
+.ant-input {
+  /* background-color: #202b49 !important; */
+  border-radius: 15px !important;
+  height: 30px !important;
+  margin-right: 5px;
+
+}
+
+.date {
+  margin-right: 10px;
+}
